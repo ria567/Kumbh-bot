@@ -1,7 +1,6 @@
 # <h1 align="center"> Kumbh - Bot </h1> <br>
 <p align="center">
-  <a href="https://github.com/shruti8019/Kumbh-bot">
-    <img alt="Check on Zulip Chat" title="Kumbh-Bot" 
+  <img alt="Check on Zulip Chat" title="Kumbh-Bot" src="https://github.com/imharshita07/Kumbh-bot/blob/master/images/kumbh-logo.jpg" width="550">
   </a>
 </p>
 <p align="center">
@@ -25,7 +24,9 @@
 ## Introduction
 
 Kumbh-Bot is designed to serve the huge gathering of kumbh mela. Built with Python and ZulipChat-Api, Kumbh-Bot is a feature-rich unofficial ZulipChat Bot that is 100% free.
-
+<p align="center">
+<img src = "https://github.com/imharshita07/Kumbh-bot/blob/master/images/zulip.png"/>
+</p>
 
 
 ## Features
