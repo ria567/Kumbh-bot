@@ -20,7 +20,7 @@ def hospital(bot_handler: Any)->str:
 	    place += current_location[i] + " "
 	    i = i + 1
 	#print(place)
-	r = requests.get(current_location_url + place + ',+CA&key=AIzaSyBKmBYERZyz9Cj7-F9bT7WMWVuSHiaX9kU')
+	r = requests.get(current_location_url + place + ',+CA&key="Your API KEY"')
 	results = r.json()
 	#print(results)
 	longi = results["results"][0]["geometry"]["location"]["lat"]
@@ -84,7 +84,7 @@ def police(bot_handler: Any)->str:
 		place += current_location[i] + " "
 		i = i + 1
 
-	response = requests.get(current_location_url + place + ',+CA&key=AIzaSyBKmBYERZyz9Cj7-F9bT7WMWVuSHiaX9kU')
+	response = requests.get(current_location_url + place + ',+CA&key="YOUR API KEY"')
 	res1 = response.json()
 
 	longi = res1["results"][0]["geometry"]["location"]["lat"]
@@ -120,7 +120,7 @@ def restaurant(bot_handler: Any)->str:
 	while (i < l):
 	    place += content[i] + " "
 	    i = i + 1
-	response = requests.get(url + place + ',+CA&key=AIzaSyAPHKNarbqTsvtUukRBx516p8KyjdCyHAM ')
+	response = requests.get(url + place + ',+CA&key="YOUR API KEY"')
 	res1 = response.json()
 	longi = res1["results"][0]["geometry"]["location"]["lat"]
 	lati = res1["results"][0]["geometry"]["location"]["lng"]
