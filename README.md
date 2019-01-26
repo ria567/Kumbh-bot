@@ -77,14 +77,14 @@ Example Usage - ```zulip-run-bot ~/Projects/KumbhBot/bot/kumbhBot --config-file 
 
 ## Feedback
 
-Feel free to send us feedback on [Email](mailto:support@jarvis-bot.tech) or [file an issue](https://github.com/mkfeuhrer/JarvisBot/issues).
+Feel free to send us feedback on [Email](mailto:support@kumbh-bot.tech) or [file an issue](https://github.com/shruti8019/Kumbh-bot/issues).
 
 ## Contributors
 
 <ul>
   <li> <a href="https://github.com/shruti8019">Shruti Jagwani</a></li>
-  <li> <a href="https://github.com/imharshita07">Harshita Rastogi</a></li>
   <li> <a href="https://github.com/ria567">Ria Jain</a></li>
+  <li> <a href="https://github.com/imharshita07">Harshita Rastogi</a></li>
   <li> <a href="https://github.com/araishaftab5">Araish Aftab</a></li>
 </ul>
 
@@ -95,10 +95,6 @@ Feel free to send us feedback on [Email](mailto:support@jarvis-bot.tech) or [fil
   <li>All Suggestions are welcome.</li>
   <li>Fork repository and Contribute.</li>
 </ul>
-
-## Announcements
-
-We have updated Jarvis Bot and it now uses latest python-zulip-api. Also now all the features of Jarvis bot can be used in both stream as well as private messages.
 
 ## Acknowledgment
 
