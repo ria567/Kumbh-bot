@@ -12,7 +12,7 @@ translator= Translator()
 def live_station(bot_handler: Any, *params ) -> str:
 	#content = message["content"]
 	#words = content.split()
-	api_key="01grdocl45" 
+	api_key="<Your API Key>" 
 	
 	train_number=params[0]
 	station_code="ALD"
@@ -57,7 +57,7 @@ def live_station(bot_handler: Any, *params ) -> str:
 #https://api.railwayapi.com/v2/live/train/<train-number>/station/<station-code>/date/<dd-mm-yyyy>/apikey/<apikey>/
 def train_route( bot_handler: Any, *params) -> str:
 	
-	api_key="01grdocl45" 
+	api_key="<YOUR API KEY>" 
 	train_number=params[0]
 	train_n=''.join(params)
 	print("Train number= " + train_n)
@@ -83,7 +83,7 @@ def train_route( bot_handler: Any, *params) -> str:
 
 def train_between(bot_handler: Any,*params) -> str:
     
-    api_key="01grdocl45"
+    api_key="<YOUR API KEY>"
     #station = ''.join(params)
     print(params)
     source=params[0][0]
@@ -121,7 +121,7 @@ def train_between(bot_handler: Any,*params) -> str:
 def train_enquiry(bot_handler:Any,*params) -> str:
 
 	station_code=params[0][0]
-	api_key="01grdocl45" 
+	api_key="<YOUR API KEY>" 
 	station_hour=str(4)
 	base_url = "https://api.railwayapi.com/v2/arrivals/station/"+station_code+"/hours/"+station_hour+"/apikey/"+api_key+"/"
 	
