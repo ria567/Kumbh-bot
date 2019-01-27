@@ -60,10 +60,6 @@ To deploy Kumbh bot using your local machine as server, follow following steps -
 * Download the bot's zuliprc configuration file to your computer.
 	* Go to Settings -> Your bots
 	* In the Active bots panel, click on the little green download icon to download its configuration file zuliprc (the structure of this file is explained here).
-* Make sure sure that your system has following packages installed -
-	* enchant (Please make sure your enchant version is <= 1.6.1-2) 
-	* sshpass (For debian based system install using ```sudo apt-get install sshpass```)
-	* aspell-en (For debian based system install using ```sudo apt-get install aspell-en```)
 * Install all required python packages, rum command ```pip3 install -r requirements.txt```
 * Now we are all set, to run bot enter following command ```zulip-run-bot <absolute path to kumbhBot.py file > --config-file <absolute path to downloaded zuliprc file>```
 
